@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+/*Left Side*/
+#Left_Side {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    order: 1;
+    background-color: #eee;
+    width: 20%;
+    padding: 5vh 0;
+}
+
+.menu {
+    list-style-type: none;
+    font-size: 1.6em;
+}
+
+.menu li {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    margin-left: 10px;
+    color: #f8831a;
+}
+
+.menu .Pizza_Menu {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    list-style: none;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+
+.menu .Pizza_Menu:hover {
+    color: #f8831a;
+    margin-left: 20px;
+}
+
+/*Middle*/
+#Middle {
+    order: 2;
+    background-color: #111;
+    color: #eee;
+    width: 60%;
+    padding: 5vh 0;
+}
+
+/*Middle Home*/
+#Home_Page {
+    margin: 0 10px;
+}
+
+.Home_Pizza {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Home_img {
+    width: 60%;
+}
+
+/*Middle Menu*/
+
+.Menu_Item {
+    display: flex;
+    border-bottom: 3px solid #333;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Menu_Spacing {
+    margin: 10px;
+}
+
+.Menu_Item img {
+    height: 20vh;
+}
+
+/*Middle Pizza Page*/
+.Order_Page {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.Order_Page img {
+    width: 20vw;
+    margin: 0 1vw;
+}
+
+.Order_Info {
+    margin-top: 5vh;
+}
+
+.Order_Options {
+    display: flex;
+}
+
+.Option_Box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5vw;
+}
+
+.Amount {
+    display: flex;
+    font-size: 1.1em;
+}
+
+.Amount button {
+    height: fit-content;
+}
+
+.Pizza_Info {
+    margin: 0 10px;
+}
+
+/*Right Side*/
+#Right_Side {
+    order: 3;
+    background-color: #eee;
+    width: 20%;
+    padding: 5vh 0;
+}
+
+#Order_List {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 10px;
+}
+
+.column_h1 {
+    width: 150px;
+    border-bottom: black 1px solid;
+}
+
+.column_h2 {
+    width: 60px;
+    border-bottom: black 1px solid;
+}
+
+.column_h3 {
+    width: 50px;
+    border-bottom: black 1px solid;
+}
+
+.column_h4 {
+    width: 40px;
+}
+
+.column_1 {
+    width: 150px;
+    border-bottom: black 1px solid;
+}
+
+.column_2 {
+    width: 60px;
+    border-bottom: black 1px solid;
+}
+
+.column_3 {
+    width: 50px;
+    border-bottom: black 1px solid;
+}
+
+.column_4 {
+    width: 40px;
+}
+
+.column_ex {
+    width: 111px;
+    margin-left: 1px;
+    border-bottom: black 1px solid;
+}
+
+#Header_Order {
+    display: flex;
+}
+
+.Pizza_Order {
+    display: none;
+}
+
+.Pizza_Order_Total {
+    display: flex;
+    margin-top: 20px;
+}
+
+.Pizza_Order_Data {
+    display: flex;
+    flex-direction: column;
+}
+
+.Pizza_Order_MAP {
+    display: none;
+}
+
+.Pizza_Order_SBT {
+    display: flex;
+}
+
+#Order_Form {
+    margin: 10px;
+}
+
+#Order_Button {
+    display: none;
+}
